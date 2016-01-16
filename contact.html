@@ -12,20 +12,16 @@
 		#form-kontak form textarea {
 			padding-top: 5px;
 			padding-left: 5px;
-			margin-left: 5px;
 			margin-bottom: -1px;
-			width: 350px;
 			font: 13px Georgia, "Times New Roman", Times, serif;
 			border: 0px;
-
+			width: 100%;
 		}
 		.borderbawah {
 			border-bottom: 2px solid #999999;
 			margin-bottom: 0px;
-			display: block;
-		}
-		.borderbawah .fa .fa-pencil {
-			margin-bottom: 100px;
+			margin-left: 5px;
+			width: 90%;
 		}
 		#form-kontak form input[type=text] {
 			height: 30px;
@@ -86,19 +82,23 @@
 				<tr>
 					<td>Nama</td>
 					<td>:</td>
-					<td class="borderbawah"><i class="fa fa-user"></i><input type="text" name="nama" placeholder="Nama"></td>
+					<td><i class="fa fa-user"></i></td>
+					<td class="borderbawah"><input type="text" name="nama" placeholder="Nama" width="100"></td>
 				</tr>
 				<tr>
 					<td>Email</td>
 					<td>:</td>
-					<td class="borderbawah"><i class="fa fa-envelope"></i><input type="text" name="email" placeholder="Email"></td>
+					<td><i class="fa fa-envelope"></i></td>
+					<td class="borderbawah"><input type="text" name="email" placeholder="Email"></td>
 				</tr>
 				<tr>
 					<td>Pesan</td>
 					<td>:</td>
-					<td class="borderbawah"><i class="fa fa-pencil" style="top: 50%;postition: absolute;"></i><textarea name="pesan" placeholder="Isi Pesan..." rows="6"></textarea></td>
+					<td><i class="fa fa-pencil"></i></td>
+					<td class="borderbawah"><textarea name="pesan" placeholder="Isi Pesan..." rows="6"></textarea></td>
 				</tr>
 				<tr>
+					<td></td>
 					<td></td>
 					<td></td>
 					<td>
