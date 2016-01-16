@@ -1,0 +1,438 @@
+body {
+	margin: 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+    background-color: #FFFFFF;
+}
+.clear {
+	float: none;
+	clear: both;
+}
+.center {
+	width: 960px;
+	margin: 0 auto;
+}
+.title {
+    font-family: "Raleway", sans-serif; 
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 10px;
+}
+a{
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+#header {
+    background-color: #EEEEEE;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    z-index: 10;
+}
+#header #logo{
+    float: left;
+}
+/* menu */
+#header .menu {
+	float: right;
+	margin-top: -6px;
+}
+#header .menu ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+#header .menu ul li {
+	display: inline-block;
+	font-size: 18px;
+	font-family: 'Ubuntu', sans-serif;
+}
+#header .menu ul li:after {
+    feature-list: '/';
+    color: grey;
+}
+#header .menu ul li:last-child:after {
+    display: none;
+}
+#header .menu ul li a {
+	color: #696969;
+	display: inline-block;
+	padding: 15px;
+	text-decoration: none;
+}
+#header .menu ul li a:hover {
+	color: #adadad;
+	display: inline-block;
+	padding: 15px;
+	text-decoration: none;
+}
+
+
+/* banner configuration */
+#banner{
+    background: url("../images/banner.png") no-repeat center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 115px;
+    color: #ffffff;
+    text-align: left;
+    min-height: 230px
+}
+#banner h1{
+    font-size: 44px;
+    font-family: 'Ubuntu', sans-serif;
+    /*text-transform: uppercase;*/
+    font-variant: small-caps;
+    font-weight: normal;
+}
+#banner h2{
+	margin-top: -20px;
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: normal;
+    margin-bottom: 28px;
+}
+.btn{
+    border: solid 2px #ffffff;
+    color : #ffffff;
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+.btn:hover, button a:hover{
+    background: #FFFFFF;
+    color: #000000;
+}
+
+.circle {
+    border-radius: 50%;
+    float: left;
+    display: inline-block;
+
+    /* text styling */
+    font-size: 45px;
+    width: 250px;
+    height: 250px;
+    color: #FFF;  border: 2px solid #fff;
+    line-height: 250px;
+    text-align: center;
+    font-family: Arial;
+}
+
+/* Keunggulan */
+#keunggulan {
+	background-color: #ed2024;
+	padding: 10px 0px 10px 10px;
+	color: #ffffff;
+	text-align: center;
+}
+#keunggulan .text {
+	font-size: 24px;
+}
+#keunggulan .btn {
+	margin-left: 25px;
+}
+
+/* feature-list */
+#feature-list {
+	margin-top: 25px;
+    margin-bottom: 35px;
+}
+#feature-list .kotak {
+    /* background-color: #dadfe1; */
+    text-align: center;
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+    float: left;
+}
+#feature-list .kotak h4 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    display: inline-block;
+    text-align: center;
+}
+#feature-list .kotak p {
+    text-align: center;
+    margin-top: 0px;
+    font-size: 16px;
+}
+
+/* portfolio-list */
+#portfolio-list {
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+#portfolio-list .kotak {
+    /* background-color: #dadfe1; */
+    text-align: center;
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+    float: left;
+}
+#portfolio-list .kotak h4 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    display: inline-block;
+    text-align: center;
+}
+#portfolio-list .kotak p {
+    text-align: center;
+    margin-top: 0px;
+    font-size: 16px;
+}
+#portfolio-list .kotak p img{
+    text-align: center;
+    max-width: 300px;
+    max-height: 180px;
+    -webkit-box-shadow: 1px 1px 2px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 1px 1px 2px 0px rgba(0,0,0,1);
+    box-shadow: 1px 1px 2px 0px rgba(0,0,0,1);
+}
+#portfolio-list .kotak p img:hover{
+    text-align: center;
+    max-width: 100%;
+    -webkit-box-shadow: 1px 1px 4px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 1px 1px 4px 0px rgba(0,0,0,1);
+    box-shadow: 1px 1px 4px 0px rgba(0,0,0,1);
+}
+/* client */
+#client {
+    background-color: #336E7B;
+    padding: 20px;
+}
+
+#client .kotak {
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+    float: left;
+}
+#client .kotak img{
+    height: 200px;
+    max-height: 200px;
+    max-width: 300px;
+}
+/* testimoni */
+#testimoni {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#testimoni .avatar {
+    margin-left: 10px;
+    max-height: 50px;
+    max-width: 50px;
+}
+#testimoni .avatar img {
+    max-height: 100px;
+    max-width: 100px;
+}
+#testimoni p.text {
+    font-style: italic;
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 19px;
+    margin-left: 121px;
+    position: relative;
+    overflow: hidden;
+}
+#testimoni .nama {
+    margin-left: 20px;
+    font-size: 14px;
+    text-align: left;
+    float: left;
+}
+#testimoni .nama a {
+    color: #ed1c24;
+    font-family: Arial,sans-serif;
+    text-decoration: none;
+}
+#testimoni .nama a:hover {
+    color: #f14e55;
+    text-decoration: underline;
+}
+#testimoni .nama p {
+    color: #5a5a5a;
+    font-size: 14px;
+    line-height: 15px;
+    margin-top: 6px;
+}
+
+.btn-testimoni {
+    float: right;
+    border: solid 2px #ed1c24;
+    color : #ed1c24;
+    font-size: 14px;
+}
+.btn-testimoni:hover, button a:hover{
+    border: solid 2px #ed1c24;
+    background: #ed1c24;
+    color: #000000;
+}
+
+.about .info{
+    font-family: 'Roboto';
+    font-variant: small-caps;
+    font-size: 15px;
+}
+
+/* footer */
+#footer {
+    color: #FFFFFF;
+    background-color: #434344;
+    margin-top: 50px;
+    min-height: 200px;
+    padding-top: 30px;
+}
+#footer .kolom {
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+    float: left;
+}
+#footer .kolom h4{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+    display: inline-block;
+    text-align: center;
+}
+#footer .kolom p{
+    margin: 3px;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+}
+#footer .kolom p a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#footer .kolom p a:hover{
+    color: #DDDDDD;
+    text-decoration: underline;
+}
+#footer .kolom .sosmed a{
+    margin: 3px;
+    font-size: 28px;
+    color: #BDC3C7;
+}
+#footer .kolom .sosmed a:hover{
+    margin: 3px;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+/* responsive */
+@media screen and (max-width : 1095px) {
+
+    .center{
+        width: auto;
+        padding: 0 20px;
+        margin: 0;
+    }
+}
+
+
+@media screen and (max-width: 826px) {
+
+}
+
+@media screen and (max-width: 741px) {
+
+    #header .menu,
+    #header #logo{
+        float: none;
+        width: auto;
+        margin: 0 auto;
+    }
+    #header #logo{
+        margin-bottom: 10px;
+    }
+    #header #logo img{
+        margin: 0 auto;
+        display : table;
+    }
+    #header .menu ul{
+        display: table;
+        margin : 0 auto;
+    }
+    #banner h1{
+        font-size: 30px;
+    }
+
+    #keunggulan .btn {
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    #client {
+        padding: 0px;
+        padding-bottom: 10px;
+    }
+    #client .kotak {
+        margin: 10px 10px auto;
+    }
+
+
+}
+
+@media screen and (max-width: 640px) {
+
+    #header .menu,
+    #header #logo{
+        float: none;
+        width: auto;
+        margin: 0 auto;
+    }
+    #header #logo{
+        margin-bottom: 10px;
+    }
+    #header #logo img{
+        margin: 0 auto;
+        display : table;
+    }
+    #header .menu ul{
+        display: table;
+        margin : 0 auto;
+    }
+    #banner h1{
+        font-size: 30px;
+    }
+
+    #keunggulan .btn {
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    #client {
+        padding: 0px;
+    }
+    #client .kotak {
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    #feature-list .kotak {
+        width: 100%;
+        margin: 10px auto;
+    }
+    #portfolio-list .kotak {
+        width: 100%;
+        margin: 10px auto;
+    }
+}

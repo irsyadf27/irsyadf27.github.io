@@ -1,0 +1,77 @@
+<html>
+<head>
+	<title>Hyperlink dalam CSS</title>
+	<style>
+		body {
+			background-color: pink;
+			font-variant: small-caps;
+			font-size: 20px;
+		}
+		/* Link 1 */
+		a.link1 {
+			background-color: grey;
+			text-decoration: none;
+			font-weight: bold;
+			color: white;
+			font-size: larger;
+		}
+		a.link1:hover {
+			color: yellow;
+			text-decoration: overline;
+		}
+		a.link1:active {
+			color: green;
+			text-decoration: underline;
+		}
+		a.link1:visited {
+			color: blue;
+			text-decoration: line-through;
+		}
+
+		/* Link 2 */
+		a.link2 {
+			background-color: lime;
+			text-decoration: none;
+			color: green;
+		}
+		a.link2:hover {
+			color: yellow;
+			text-decoration: overline;
+		}
+		a.link2:active {
+			color: red;
+			text-decoration: underline;
+		}
+		a.link2:visited {
+			color: blue;
+			text-decoration: line-through;
+		}
+
+		/* Link 3 */
+		a.link3 {
+			background-color: green;
+			text-decoration: none;
+			color: yellow;
+		}
+		a.link3:hover {
+			color: red;
+			text-decoration: overline;
+		}
+		a.link3:active {
+			color: blue;
+			text-decoration: underline;
+		}
+		a.link3:visited {
+			color: lime;
+			text-decoration: line-through;
+		}
+	</style>
+</head>
+<body>
+	Penerapan HYPERLINK DALAM CSS<br>
+	<a href="biodata.html" class="link1">Biodata</a>
+	<a href="layer.html" class="link2">Layer</a><br/>
+	<a href="definisi1.html" class="link3">HTML</a>
+	<a href="definisi2.html" class="link3">CSS</a>
+</body>
+</html>

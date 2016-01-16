@@ -1,0 +1,77 @@
+<html>
+<head>
+	<title>Setting Teks Dalam CSS</title>
+	<style>
+		#judul {
+			text-align: center;
+			font-size: xx-large;
+			font-family: times new roman;
+			color: red;
+		}
+		#CSS {
+			font-family: times new roman;
+		}
+		.underline {
+			text-decoration: underline;
+		}
+		.bold {
+			font-weight: bold;
+		}
+
+		#keuntungan .judul {
+			color: blue;
+			font-style: italic;
+			font-family: arial;
+			font-size: xx-large;
+		}
+		#keuntungan .no1 {
+			color: green;
+			font-family: times new roman;
+		}
+		#keuntungan .no2 {
+			color: navy;
+			font-family: arial;
+		}
+
+		#kekurangan .judul {
+			color: cyan;
+			font-style: italic;
+			font-family: arial;
+			font-size: xx-large;
+		}
+		#kekurangan .isi {
+			color: navy;
+			font-family: verdana;
+			font-size: 16px;
+		}
+
+		#selamat {
+			text-align: center;
+			color: brown;
+			font-family: times new roman;
+			font-size: 17px;
+		}
+	</style>
+</head>
+<body>
+	<div id="judul">
+		<span id="articss" class="bold"><span class="underline">CSS</span> (CASCAding Style Sheets)</span>
+	</div>
+
+	<div id="keuntungan">
+		<div class="judul bold">Keuntungan CSS:</div>
+		<span class="no1">1. Menentukan tampilan dari halam-halaman web dalam sebuah tempat<br/>
+			tanpa mengulangnya kembali melalui script <span class="bold underline">HTML</span> anda.</span><br/>
+		<span class="no2">2. Menentukan isi hingga ukuran piksel dari tiap halaman web dengan akurat</span>
+	</div>
+
+	<br/>
+	<div id="kekurangan">
+		<div class="judul bold">Kekurangan CSS:</div><br/>
+		<span class="isi">CSS hanya dapat bekerja dalam browser versi 4.<br/>Namun dewasa ini lebih dari 95% dari keseluruhan browser telah banyak yang mendukungnya</span>
+	</div>
+	<div id="selamat" class="bold">
+		Selamat Mencoba
+	</div>
+</body>
+</html>
