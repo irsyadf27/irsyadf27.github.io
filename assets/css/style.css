@@ -60,7 +60,7 @@ blockquote {
 	font-family: 'Ubuntu', sans-serif;
 }
 #header .menu ul li:after {
-    feature-list: '/';
+    content: '/';
     color: grey;
 }
 #header .menu ul li:last-child:after {
@@ -109,7 +109,7 @@ blockquote {
     border: solid 2px #ffffff;
     color : #ffffff;
     text-transform: uppercase;
-    font-family: "Raleway", sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-size: 16px;
     text-decoration: none;
     padding: 10px;
